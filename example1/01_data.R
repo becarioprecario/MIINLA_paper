@@ -5,7 +5,7 @@
 library(INLA)
 library(MIINLA)
 library(parallel)
-options(nc.cores = 4)
+options(mc.cores = 4)
 
 library(mice)
 data(nhanes)
